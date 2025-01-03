@@ -2,6 +2,7 @@
 
 import './App.css'
 import Counter from './Counter'
+import Team from './Team'
 
 function App() {
   function handleClick(){
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <h1>React Core Concept part 2</h1>
+      <Team></Team>
       <Counter></Counter>
       <button onClick={handleClick}>Click me</button>
       <button onClick={() => adFive(5)}>Add Five</button>
